@@ -278,9 +278,7 @@ main {
                     letter-spacing: 0em;
                     text-align: left;
                 }
-                /* .card__button {
 
-                } */
                     .card__button a {
                         text-decoration: none;
                         color: #828282;
@@ -323,14 +321,15 @@ main {
             align-self: center;
 
             width: 75%;
-            min-width: 280px;
+            min-width: 300px;
             max-width: 1200px;
-            margin: 0 auto;
+            /* margin: 0 auto; */
 
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax( 280px, 1fr));
-            grid-auto-rows: minmax( 280px, 1fr);
+            grid-template-columns: repeat(auto-fit, minmax( 300px, 1fr));
+            grid-auto-rows: minmax( 400px, 1fr);
             gap: 2rem;
+            /* place-items: center; */
         }
             .project {
                 display: grid;
@@ -377,9 +376,6 @@ main {
                         transform: rotate(-15deg);
                     }
                 
-                /* .project__description {
-
-                } */
                 .project__description span {
                     color: #828282;
                     font-size: 12px;
@@ -399,7 +395,6 @@ main {
             .portfolio__more-projects {
                 width: 75%;
                 margin: 0 auto;
-                /* align-self: flex-end; */
                 text-align: end;
             }
                 .portfolio__more-projects a {
@@ -417,7 +412,6 @@ main {
                         background-image: url('../assets/icons/arrow_right_alt_black.svg');
                         width: 2rem;
                         height: .6rem;
-                        /* padding: 3rem; */
                         /* Escala la imagen al mayor tamño posible sin estirarla */
                         background-size: cover;
                         /* Siempre estara al centro sin importar el tamaño del container */
