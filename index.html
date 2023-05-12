@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edie</title>
+
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./font/flaticon.css">
+    <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 900px)">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@800&family=Poppins:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header>
+        <!-- Logo/"Edie" section -->
+        <section class="logo">
+            <a href="#">
+                Edie
+            </a>
+        </section>
+        <!-- Nav-bar section -->
+        <nav class="menu">
+            <!-- Menu burger button -->
+            <button class="menu__button"></button>
+        </nav>
+        
+    </header>
+
+    <main>
+
+        <section class="hero">
+            <div class="hero__title">
+                <p>Unhappy with your website?</p>
+                <h1>We create beautiful <br> and fast web services</h1>
+            </div>
+
+            <div class="hero__img">
+                <img src="./assets/imgs/hero_img.jpg" alt="picture of our team">
+            </div>
+
+            <div class="hero__description">
+                <h2>Story, emotion <br> and purpose</h2>
+                <p>
+                    We help transform your ideas into real world applications that will outperform your toughest competition and help you achieve your strategic goals in short period of time.
+                </p>
+            </div>
+
+            <div class="contact">
+                <form class="contact__form" action="">
+                    <legend>Want us to contact you?</legend>
+                    <div class="contact__search search--container">
+                        <input id="join--hero" class="contact__input" type="Email" placeholder="Email">
+                        <button id="btn--hero" class="contact__button" type="button">Join</button>    
+                    </div>
+
+                </form>
+            </div>
+
+        </section>
+
+        <section class="services" id="services">
+            <div class="services__title">
+                <h2>We offer high <br> demand services</h2>
+            </div>
+            <div class="services__cards">
+                <!-- Card #1 -->
+                <article class="card">
+                    <div class="card__iso design">
+                        <!-- Agregamos background img -->
+                    </div>
+                    <h3 class="card__title">UI/UX Desing</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet,
+                         consectetur adipiscing elit.
+                         Duis a metus ac nulla consequat 
+                         aliquet id quis turpis.
+                    </p>
+                    <div class="card__button">
+                        <a href="/">Get started</a>
+                    </div>
+                </article>
+
+                <!-- Card #2 -->
+                <article class="card card--featured">
+                    <div class="card__iso front">
+                        <!-- Agregamos background img -->
+                    </div>
+                    <h3 class="card__title">Front End</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet,
+                         consectetur adipiscing elit.
+                         Duis a metus ac nulla consequat 
+                         aliquet id quis turpis.
+                    </p>
+                    <div class="card__button">
+                        <a href="/">Get started</a>
+                    </div>
+                </article>
+
+                
+                <!-- Card #3 -->
+                <article class="card">
+                    <div class="card__iso back">
+                        <!-- Agregamos background img -->
+                    </div>
+                    <h3 class="card__title">Back End</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet,
+                         consectetur adipiscing elit.
+                         Duis a metus ac nulla consequat 
+                         aliquet id quis turpis.
+                    </p>
+                    <div class="card__button">
+                        <a href="/">Get started</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="portfolio" id="works">
+            <div class="portfolio__title">
+                <h2>Good design means <br> good business</h2>
+            </div>
+
+            <div class="portfolio__projects">
+                <!-- Project #1 -->
+                <article class="project project--full-stack">
+
+                    <figure class="project__img-container">
+                        <div class="project__bgi">
+
+                        </div>
+                    </figure>
+
+                    <div class="project__description">
+                        <span>Full stack application</span>
+                        <p>Smart home dashboard</p>
+                    </div>
+
+                </article>
+
+                <!-- Project #2 -->
+                <article class="project project--ux-ui">
+
+                    <figure class="project__img-container">
+                        <div class="project__bgi">
+
+                        </div>
+                    </figure>
+
+                    <div class="project__description">
+                        <span>UX/UI design</span>
+                        <p>Onboard application</p>
+                    </div>
+
+                </article>
+
+                <!-- Project #3 -->
+                <article class="project project--mobile">
+
+                    <figure class="project__img-container">
+                        <div class="project__bgi">
+
+                        </div>
+                    </figure>
+
+                    <div class="project__description">
+                        <span>Mobile application</span>
+                        <p>Booking system</p>
+                    </div>
+
+                </article>
+
+                <!-- Project #4 -->
+                <article class="project project--front">
+
+                    <figure class="project__img-container">
+                        <div class="project__bgi">
+
+                        </div>
+                    </figure>
+
+                    <div class="project__description">
+                        <span>Front End applicati on</span>
+                        <p>Juice product homepage</p>
+                    </div>
+
+                </article>
+            </div>
+
+            <div class="portfolio__more-projects">
+                <a href="">
+                    see more <span class="rihgt--arrow"></span> 
+                </a>
+            </div>
+
+        </section>
+
+        <section class="team">
+            <div class="team__wraper">
+                <div class="team__title">
+                    <a href="">Meet the team</a>
+                    <h2>We are chilled <br> and a laidback <br> team  </h2>
+                    <p>Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit.</p>
+                </div>
+    
+                <div class="team__galery">
+                    <div class="galery--leftMiddle">
+
+                    </div>
+
+                    <div class="galery--rightTop">
+
+                    </div>
+
+                    <div class="galery--rightBot">
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimony" id="clients">
+                <p>
+                    “Fast and outstanding resutls. Edie understands their customer’s needs. They have a young and talented team.”     
+                </p>
+                <div class="testimony__info">
+                    <img src="./assets/imgs/pexels-ron-lach-9870160.jpg" alt="">
+                    <div class="testimony__name">
+                        <p>Carlos Tran</p>
+                        <span>The Decorate Gatsby</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section class="footer__contacts" id="contact">
+            <section class="links">
+                <a href="/">Home</a>
+                <a href="/">Services</a>
+                <a href="/">Our Works</a>
+                <a href="/">Clients</a>
+                <a href="/">Contact</a>
+              </section>
+      
+              <section class="social">
+                <p>Edie</p>
+                      <ul class="icons__container">
+                      
+                          <li class="icons__link--container">
+                              <a href="/"><span class="flaticon-011-instagram"> </span></a>
+                          </li>
+                          <li class="icons__link--container">
+                              <a href="/"><span class="flaticon-010-linkedin"> </span></a>
+                          </li>
+                          <li class="icons__link--container">
+                            <a href="https://twitter.com/efrain__sa?t=QBAF4Ni6i0A-jl545ial-Q&s=09">
+                                <span class="flaticon-002-twitter">
+                                </span>
+                            </a>
+                          </li>
+                      </ul>
+              </section>
+      
+              <section class="contact contact--footer">
+                  <form class="contact__form" action="">
+                      <legend>Want us to contact you?</legend>
+                      <div class="contact__search search--container">
+                        <input id="join--footer" class="contact__input" type="Email" placeholder="Email">
+                        <button id="btn--footer" class="contact__button" type="button">Join</button>   
+                      </div>
+                  </form>
+              </section> 
+        </section>
+
+        <section class="author">
+            <p>created by 
+               <a class="author--tw-link" href="https://twitter.com/efrain__sa?t=QBAF4Ni6i0A-jl545ial-Q&s=09">@efrain</a> 
+               - devChallenges.io</p>
+        </section>
+    </footer>
+    <!-- <script src="./scripts/main.js"></script> -->
+</body>
+</html>
